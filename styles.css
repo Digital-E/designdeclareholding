@@ -9,6 +9,7 @@ body {
     font-family: "Druk Bold";
     letter-spacing: 0.02em;
     pointer-events: none;
+    overflow: hidden;
 }
 
 .container {
@@ -18,8 +19,8 @@ body {
     align-items: flex-end;
     top: 0;
     left: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: black;
     margin: 0;
     padding: 20px;
@@ -71,7 +72,6 @@ body {
     .logo {
         width: 100%;
         height: auto;
-        margin-bottom: 20px;
     }
 
     .text {
